@@ -8,7 +8,7 @@ import Recipe from './pages/Recipe'
 
 const App = () => {
   return (
-    <div className='h-screen bg-white text-black p-5 '>
+    <div className='h-screen bg-white text-black '>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
