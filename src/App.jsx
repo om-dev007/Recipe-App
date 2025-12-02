@@ -9,7 +9,7 @@ import { useContext } from 'react'
 import { ThemeContext } from './context/ThemeContext'
 
 const App = () => {
-  const {theme, toggleTheme} = useContext(ThemeContext)
+  const {theme} = useContext(ThemeContext)
 
   return (
     <div className={`min-h-screen ${theme == 'light'? 'bg-black text-white': ' bg-white text-black'}  `}>
